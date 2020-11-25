@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta http-equiv="Content-Security-Policy" content="default-src *; style-src *  'unsafe-inline'; script-src *  'unsafe-inline'; media-src *">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Currency Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/css/bootstrap.min.css">
+    <!--  -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">     <script src="main.js"></script>
+</head>
+<body style="background-color: #510AB0">
+        <div class="container-fluid  m-auto col-md-6 ">
+                <div class="card p-3 mt-5 bg-light " style="border-radius:20px">
+                    <img src="img/money-bag.png" class="m-auto" style="height: 100px;width: 100px">
+                       <h1 style="font-family:'Lobster', cursive;color:#101C5A;text-align: center">Currency Converter</h1>
+                       <div class="form-group">
+                            <div class="row">
+                                <div class="col-sm-2" >
+                                        USD<img src="img/icons8-usa-96.png" class="m-auto" style="height: 50px;width: 50px">
+                                </div>
+                                <div class="col-sm-8 mt-2">
+                                        <input id="input" type="text" class="form-control" id="number" placeholder="Enter currency in USD">
+                                </div>
+                            </div>
+                            
+                            <button id="convert" class="btn btn-primary btn-block mt-4">Convert</button>
+                          </div>
+                          <div class="form-group" id="outputBlock">
+                            <div class="badge badge-success btn-block p-3">
+                                <div class="row justify-content-md-center">
+                                    <div class="col-md-auto">
+                                            <img src="img/rupee.png" class="m-auto" style="height: 50px;width: 50px">
+                                    </div>
+                                    <div id="output" class="col-md-auto" style="font-size:40px">
+                                            
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+                          </div>
+                          
+                          
+                </div>
+                
+                
+            </div>
+            <script src="js/jquery-3.3.1.min.js"></script>
+            <script src="js/sample.js"></script>
+</body>
+</html>
